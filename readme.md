@@ -28,3 +28,25 @@ Header is the component at the top of the website. It contains the logo, name an
         </nav>
     </header>
 ```
+
+### Footer
+Footer has social media links, some contact and address information. Here is some code for the footer:
+```html
+<footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.github.com" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        <div class="info">
+            <p>Contact: 04040404040</p>
+            <p>Address: 0 Street, Country</p>
+        </div>
+    </footer>
+```
